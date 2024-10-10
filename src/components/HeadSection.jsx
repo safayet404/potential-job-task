@@ -18,7 +18,7 @@ const HeadSection = () => {
                     <h1 className='mt-[50px] dark:text-white text-xs sm:text-sm md:text-base lg:text-base'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rem laboriosam illum aliquam odit, voluptate odio quasi incidunt asperiores officia architecto at.
                     </h1>
-                    <button className='bg-[#FD6F00] px-[30px] py-[10px] rounded-md text-white font-bold text-[10px] lg:text-[20px] md:text-[20px] sm:text-[16px] mt-3'>
+                    <button className='bg-[#FD6F00] px-[30px] py-[10px] rounded-md text-white font-bold text-[10px] lg:text-[17px] md:text-[17px] sm:text-[16px] mt-3'>
                         Hire Me
                     </button>
                 </div>
