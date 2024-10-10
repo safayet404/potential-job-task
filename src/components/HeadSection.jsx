@@ -28,7 +28,7 @@ const HeadSection = () => {
 
                     <div className='relative'>
                         <img alt='Image' src={first} className="lg:w-[350px] sm:w-[200px] md:w-[350px] w-[200px] h-auto" />
-                        <div className='absolute top-[12%] left-[20%] sm:w-[120px] md:w-[220px] lg:w-[220px] w-[120px] lg:h-[60px] md:h-[60px] h-[30px] sm:h-[30px] bg-orange-500 opacity-70 z-10'></div>
+                        <div className='absolute top-[12%] left-[17%] sm:w-[120px] md:w-[220px] lg:w-[220px] w-[120px] lg:h-[60px] md:h-[60px] h-[30px] sm:h-[30px] bg-orange-500 opacity-70 z-10'></div>
                     </div>
 
                     {/* Social icons, now centered under the image */}
