@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../assets/Subtract.svg'; // Adjust this import according to your project structure
+import Logo from '../assets/Subtract.svg';
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -10,13 +10,12 @@ const Navbar = () => {
         setMobileMenuOpen(!isMobileMenuOpen);
     };
 
-    // Add scroll event listener to update navbar background on scroll
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 50) {
-                setNavbarBg(true); // Apply background after scrolling 50px
+                setNavbarBg(true); 
             } else {
-                setNavbarBg(false); // No background at the top of the page
+                setNavbarBg(false); 
             }
         };
 
@@ -31,9 +30,9 @@ const Navbar = () => {
             <nav className={`fixed bg-[#F8F8F8] w-full z-20 top-0 start-0 transition-all duration-300 ${navbarBg ? 'dark:bg-[#1e1e1e] bg-[#F8F8F8] shadow-md' : 'bg-transparent'}`}>
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link to="scrollToHead" smooth={true} duration={500} href="/" className="flex items-center">
-                        <img className='w-[67px] h-[67px] lg:w-[67px] lg:h-[67px] md:w-[35px] md:h-[35px] sm:w-[55px] sm:h-[55px]' src={Logo} alt="logo" />
-                        <span className='font-bold lg:text-[25px] md:text-[15px] text-[36px] px-6 dark:text-white'>
-                            M<span className='font-normal lg:text-[25px]'>umair</span>
+                        <img className='w-[20px] h-[20px] lg:w-[67px] lg:h-[67px] md:w-[35px] md:h-[35px] sm:w-[25px] sm:h-[25px]' src={Logo} alt="logo" />
+                        <span className='font-bold lg:text-[25px] md:text-[15px] sm:text-[14px] text-[26px] px-5 dark:text-white'>
+                            M<span className='font-normal'>umair</span>
                         </span>
                     </Link>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

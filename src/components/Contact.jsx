@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className='grid grid-cols-12 justify-center items-center mt-10 gap-x-2' >
                     <div className='lg:col-span-9 md:col-span-9 sm:col-span-9 col-span-12' >
 
-                        <Textbox className="bg-white rounded-lg lg:w-[520px] md:w-[520px] sm:w-[450px] w-[450px]" placeholder="Enter Your Email" />
+                        <Textbox className="bg-white rounded-lg lg:w-[520px] md:w-[520px] sm:w-[450px] w-[250px]" placeholder="Enter Your Email" />
                     </div>
                     <div className='lg:col-span-3 md:col-span-3 sm:col-span-3 col-span-12 items-center justify-center text-center sm:mt-0 lg:mt-0 md:mt-0 mt-5'>
                         <button className='font-bold bg-[#FD6F00] pb-[12px] pt-[12px] pr-[30px] pl-[30px] rounded-lg text-white '> Contact Me </button>
