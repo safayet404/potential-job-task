@@ -48,7 +48,7 @@ const Services = () => {
                         <div className='text-4xl mb-4'>
                         <img src={graphics} alt="Graphics" className="w-16 h-16 mb-4" /> 
                         </div>
-                        <h3 className="text-2xl font-bold mb-2 dark:text-black">Graphics Design</h3>
+                        <h3 className="font-bold mb-2 dark:text-black text-2xl">Graphics Design</h3>
                         <p className="text-gray-600 dark:text-black ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, dolor.
                         </p>
