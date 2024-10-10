@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../assets/Subtract.svg'
-import { FaTwitter,FaInstagram,FaLinkedin,FaFacebook  } from "react-icons/fa6";
-import { CiFacebook } from "react-icons/ci";
+import { FaTwitter, FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -15,7 +14,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div className="hidden sm:flex sm:space-x-4 mt-[50px]">
+                <div className='flex flex-wrap justify-center items-start w-full mt-5'>
                     <a
                         href="#scrollToHome"
                         className="dark:text-[#FFF8F8] text-black font-poppins text-[14px] px-2 py-5 rounded-md"
@@ -52,15 +51,15 @@ const Footer = () => {
                     >
                         Contacts
                     </a>
-                  
+
                 </div>
 
-                <div className='flex flex-row gap-x-5 mt-10 mb-2'>
-                    <span className='text-[30px] dark:text-white '><FaFacebook  /></span>
-                    <span className='text-[30px] dark:text-white '><FaTwitter /></span>
-                    <span className='text-[30px] dark:text-white '><FaInstagram /></span>
-                    <span className='text-[30px] dark:text-white '><FaLinkedin /></span>
-                </div>
+                <div className='flex flex-row gap-x-5 justify-center items-center text-center mt-10 mb-2 '>
+                        <span className='text-[30px] dark:text-white sm:text-base lg:text-[30px] md:text-[30px] text-base' ><FaFacebook /></span>
+                        <span className='text-[30px] dark:text-white sm:text-base lg:text-[30px] lmdtext-[30px] text-base'><FaTwitter /></span>
+                        <span className='text-[30px] dark:text-white sm:text-base lg:text-[30px] md:text-[30px] text-base'><FaInstagram /></span>
+                        <span className='text-[30px] dark:text-white sm:text-base lg:text-[30px] md:text-[30px] text-base'><FaLinkedin /></span>
+                    </div>
 
             </div>
         </div>

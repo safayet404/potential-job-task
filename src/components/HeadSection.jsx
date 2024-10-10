@@ -1,38 +1,43 @@
 import React from 'react'
 import first from "../assets/1.png"
+import { FaTwitter, FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa6";
 
 const HeadSection = () => {
     return (
-
-
-        <div className='w-full flex justify-center mt-[200px]'>
-            {/* Main Container with a maximum width of 1200px */}
-            <div className='w-full max-w-[1500px] flex flex-col md:flex-row items-center justify-center'>
+        <div data-aos="fade-left" id="scrollToHead" className='w-full flex justify-center'>
+            <div className='w-full max-w-[1250px] grid grid-cols-12 sm:grid-cols-1 lg:grid-cols-12 items-center justify-center mt-[200px]'>
 
                 {/* left side */}
-                <div className='h-full w-full lg:w-2/3 flex flex-col items-start justify-center'>
-                    <div className='w-full md:max-w-lg 2xl:max-w-3xl flex flex-col items-start  justify-center gap-y-3 2xl:-mt-10'>
-
-                        <p className='dark:text-white text-[24px] font-semibold'>Hi I am</p>
-                        <p className='text-[32px] text-[#FD6f00] font-bold'>Muhammad Umair</p>
-                        <div className="flex flex-col relative font-extrabold dark:text-white text-[100px]">
-                            <span className="relative dark:text-white">UI & UX</span>
-                            <span className="absolute left-0 mt-[5rem] ml-[calc(15rem)]">Designer</span>
-                        </div>
-                        <h1 className='mt-[70px] dark:text-white'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rem laboriosam illum aliquam odit, voluptate odio quasi incidunt asperiores officia architecto at. Recusandae quidem laudantium commodi distinctio unde, natus cum.</h1>
-                        <button className='bg-[#FD6F00] pr-[50px] pl-[50px] pb-[10px] pt-[10px] rounded-md text-white font-bold text-[20px] mt-3'>Hire Me</button>
-
+                <div className='h-full w-full lg:col-span-6 sm:col-span-12   col-span-12 items-start justify-center gap-y-3 px-5'>
+                    <p className='dark:text-white text-[18px] sm:text-[18px] lg:text-[24px] md:text-[24px] font-semibold'>Hi I am</p>
+                    <p className='text-[32px] text-[#FD6f00] sm:text-[24px] font-bold'>Muhammad Umair</p>
+                    <div className="flex flex-col relative font-extrabold dark:text-white text-[30px] xl:text-[65px] lg:text-[40px] md:text-[40px] sm:text-[24px]">
+                        <span className="relative dark:text-white">UI & UX</span>
+                        <span className="absolute left-0 mt-[3rem] sm:mt-[2rem] xl:mt-[3rem] ml-[calc(5rem)] xl:ml-[calc(10rem)]  lg:ml-[calc(8rem)] sm:ml-[calc(5rem)]">Designer</span>
                     </div>
+                    <h1 className='mt-[50px] dark:text-white text-xs sm:text-sm md:text-base lg:text-base'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rem laboriosam illum aliquam odit, voluptate odio quasi incidunt asperiores officia architecto at.
+                    </h1>
+                    <button className='bg-[#FD6F00] px-[30px] py-[10px] rounded-md text-white font-bold text-[10px] lg:text-[20px] md:text-[20px] sm:text-[16px] mt-3'>
+                        Hire Me
+                    </button>
                 </div>
 
                 {/* right side */}
+                <div className="w-full lg:col-span-6 sm:col-span-12 col-span-12 flex flex-col justify-center lg:justify-end items-center lg:mt-0 sm:mt-10">
 
-                <div className="w-full md:w-1/3 p-4 md:p-1 flex flex-col justify-center items-start">
-                    <div className='relative items-center'>
-                        <img alt='Image' src={first} className="w-[420px] h-[525px]" />
-                        <div className='absolute top-[14%] left-[22%] w-[220px] h-[60px]  bg-orange-500 opacity-70 z-10'></div>
+                    <div className='relative'>
+                        <img alt='Image' src={first} className="lg:w-[350px] sm:w-[200px] md:w-[350px] w-[200px] h-auto" />
+                        <div className='absolute top-[12%] left-[20%] sm:w-[120px] md:w-[220px] lg:w-[220px] w-[120px] lg:h-[60px] md:h-[60px] h-[30px] sm:h-[30px] bg-orange-500 opacity-70 z-10'></div>
                     </div>
 
+                    {/* Social icons, now centered under the image */}
+                    <div className='flex flex-row gap-x-5 justify-center items-center text-center mt-10 mb-2 '>
+                        <span className='text-[30px] dark:text-white sm:text-base lg:text-[30px] md:text-[30px] text-base' ><FaFacebook /></span>
+                        <span className='text-[30px] dark:text-white sm:text-base lg:text-[30px] lmdtext-[30px] text-base'><FaTwitter /></span>
+                        <span className='text-[30px] dark:text-white sm:text-base lg:text-[30px] md:text-[30px] text-base'><FaInstagram /></span>
+                        <span className='text-[30px] dark:text-white sm:text-base lg:text-[30px] md:text-[30px] text-base'><FaLinkedin /></span>
+                    </div>
                 </div>
             </div>
         </div>

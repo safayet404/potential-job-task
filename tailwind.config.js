@@ -16,6 +16,7 @@ export default {
         darkBackground: '#111827', // Example: dark gray/black background for dark mode
         darkText: '#f9fafb', // Example: light gray/white text for dark mode
       },
+     
       // You can extend other parts of the theme like spacing, fonts, etc. here
       spacing: {
         '72': '18rem',
