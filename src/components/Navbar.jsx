@@ -27,7 +27,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className={`fixed bg-[#F8F8F8] w-full z-20 top-0 start-0 transition-all duration-300 ${navbarBg ? 'dark:bg-[#1e1e1e] bg-[#F8F8F8] shadow-md' : 'bg-transparent'}`}>
+            <nav className={`fixed bg-[#F8F8F8]  w-full z-20 top-0 start-0 transition-all duration-300 ${navbarBg ? 'dark:bg-[#1e1e1e] bg-[#F8F8F8] shadow-md' : 'bg-transparent'}`}>
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link to="scrollToHead" smooth={true} duration={500} href="/" className="flex items-center">
                         <img className='w-[45px] h-[45px] lg:w-[67px] lg:h-[67px] md:w-[35px] md:h-[35px] sm:w-[40px] sm:h-[40px]' src={Logo} alt="logo" />
@@ -49,7 +49,7 @@ const Navbar = () => {
                             </svg>
                         </button>
                     </div>
-                    <div className={`items-center justify-between ${isMobileMenuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
+                    <div className={`items-center justify-between ${isMobileMenuOpen ? 'block bg-[#F8F8F8] dark:bg-[#1e1e1e] shadow-md' : 'hidden'} w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
                         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-3 lg:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                             <li>
                                 <Link to="scrollToHead" smooth={true} duration={500} className="block py-2 px-3 hover:cursor-pointer rounded md:p-0 dark:text-white" aria-current="page">Home</Link>
