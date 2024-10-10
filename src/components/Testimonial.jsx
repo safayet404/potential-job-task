@@ -39,45 +39,43 @@ export default function Testimonial() {
         <div data-aos="fade-right" id="scrollToTestimonial" className="w-full flex justify-center mt-5 ">
             <div className="w-full container flex flex-col items-center ">
                 <div className="flex flex-col justify-center items-center w-full">
-                    <span className="dark:text-white text-[40px] font-bold">
-                        Testimonials
-                    </span>
-                    <span className="dark:text-white w-[70%] text-center">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
-                        sapiente tempora, assumenda quod, cum repellat, explicabo quisquam
-                        ex corrupti expedita odio pariatur.
+                <span className='dark:text-white text-[30px] lg:text-[40px] md:text-[40px] font-bold'>Testimonial</span>
+                    <span className='dark:text-white w-[70%] text-sm lg:text-base md:text-base '>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt sapiente tempora,
+                        assumenda quod, cum repellat, explicabo quisquam ex corrupti expedita odio pariatur.
                     </span>
                 </div>
 
                 <div className=" mt-10  overflow-hidden">
                     <div className=" h-full relative items-center justify-center w-full">
                         {/* Left Card */}
-                        <div className="h-full sm:w-3/5 w-full absolute sm:-left-[277px] md:-left-[325px] lg:-left-[427px] xl:-left-[525px] 2xl:-left-[626px] transition-transform duration-500">
-                            <div className="relative h-full gap-x-4 dark:bg-white p-4 grid grid-cols-12 justify-center rounded-lg text-white">
-                                {/* Overlay */}
-                                <div className="absolute inset-0 dark:bg-[#868686] bg-[#FEFEFE] opacity-70 rounded-lg"></div>
+                        <div className="h-full sm:w-3/5 w-full absolute sm:-left-[277px] md:-left-[325px] lg:-left-[427px] xl:-left-[525px] 2xl:-left-[626px] transition-transform duration-500 sm:block hidden">
+    <div className="relative h-full gap-x-4 dark:bg-white p-4 grid grid-cols-12 justify-center rounded-lg text-white">
+        {/* Overlay */}
+        <div className="absolute inset-0 dark:bg-[#868686] bg-[#FEFEFE] opacity-70 rounded-lg"></div>
 
-                                <div className="col-span-4  flex justify-center items-center">
-                                    <img
-                                        src={testimonials[(activeIndex + 2) % testimonials.length].image}
-                                        alt="Testimonial Image"
-                                        className="rounded-full w-24 h-24 mb-4"
-                                    />
-                                </div>
-                                <div className="col-span-8 relative z-10"> {/* Ensure content appears above the overlay */}
-                                    <p className="text-gray-600  text-[12px] lg:text-sm md:text-base sm:text-[15px] mb-2">
-                                        {testimonials[(activeIndex + 2) % testimonials.length].testimonial}
-                                        <span className="text-[#FD6F00]">“</span>
-                                    </p>
-                                    <p className="dark:text-gray-600 font-bold mb-1">
-                                        {testimonials[(activeIndex + 2) % testimonials.length].name}
-                                    </p>
-                                    <p className="dark:text-gray-600 font-bold">
-                                        {testimonials[(activeIndex + 2) % testimonials.length].title}
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        <div className="col-span-4 flex justify-center items-center">
+            <img
+                src={testimonials[(activeIndex + 2) % testimonials.length].image}
+                alt="Testimonial Image"
+                className="rounded-full w-24 h-24 mb-4"
+            />
+        </div>
+        <div className="col-span-8 relative z-10"> {/* Ensure content appears above the overlay */}
+            <p className="text-gray-600 text-[12px] lg:text-sm md:text-base sm:text-[15px] mb-2">
+                {testimonials[(activeIndex + 2) % testimonials.length].testimonial}
+                <span className="text-[#FD6F00]">“</span>
+            </p>
+            <p className="dark:text-gray-600 font-bold mb-1">
+                {testimonials[(activeIndex + 2) % testimonials.length].name}
+            </p>
+            <p className="dark:text-gray-600 font-bold">
+                {testimonials[(activeIndex + 2) % testimonials.length].title}
+            </p>
+        </div>
+    </div>
+</div>
+
 
 
                         {/* Middle Card */}
@@ -105,37 +103,34 @@ export default function Testimonial() {
                         </div>
 
                         {/* Right Card */}
-                        <div className="h-full sm:w-3/5 w-full absolute sm:-right-[277px] md:-right-[325px] lg:-right-[427px] xl:-right-[525px] 2xl:-right-[626px] top-0 transition-transform duration-500">
-                            <div className="relative h-full gap-x-4 dark:bg-white p-4 grid grid-cols-12 justify-center rounded-lg text-white">
-                                {/* Overlay */}
-                                <div className="absolute inset-0 bg-[#FEFEFE] opacity-70 rounded-lg"></div>
+                        <div className="h-full sm:w-3/5 w-full absolute sm:-right-[277px] md:-right-[325px] lg:-right-[427px] xl:-right-[525px] 2xl:-right-[626px] top-0 transition-transform duration-500 sm:block hidden">
+    <div className="relative h-full gap-x-4 dark:bg-white p-4 grid grid-cols-12 justify-center rounded-lg text-white">
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-[#FEFEFE] opacity-70 rounded-lg"></div>
 
-                                <div className="col-span-2 flex justify-center items-center">
-                                    <img
-                                        src={
-                                            testimonials[(activeIndex + 1) % testimonials.length].image
-                                        }
-                                        alt="Testimonial Image"
-                                        className="rounded-full w-24 h-24 mb-4"
-                                    />
-                                </div>
-                                <div className="col-span-10 relative z-10"> {/* Ensure content appears above the overlay */}
-                                    <p className="text-gray-600 text-[12px] lg:text-sm md:text-base sm:text-[15px] mb-2">
-                                        <span className="text-[#FD6F00]">“</span> {
-                                            testimonials[(activeIndex + 1) % testimonials.length].testimonial
-                                        }
-                                    </p>
-                                    <p className="dark:text-gray-600 font-bold mb-1">
-                                        {testimonials[(activeIndex + 1) % testimonials.length].name}
-                                    </p>
-                                    <p className="dark:text-gray-600 font-bold">
-                                        {
-                                            testimonials[(activeIndex + 1) % testimonials.length].title
-                                        }
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        <div className="col-span-2 flex justify-center items-center">
+            <img
+                src={testimonials[(activeIndex + 1) % testimonials.length].image}
+                alt="Testimonial Image"
+                className="rounded-full w-24 h-24 mb-4"
+            />
+        </div>
+        <div className="col-span-10 relative z-10"> {/* Ensure content appears above the overlay */}
+            <p className="text-gray-600 text-[12px] lg:text-sm md:text-base sm:text-[15px] mb-2">
+                <span className="text-[#FD6F00]">“</span> {
+                    testimonials[(activeIndex + 1) % testimonials.length].testimonial
+                }
+            </p>
+            <p className="dark:text-gray-600 font-bold mb-1">
+                {testimonials[(activeIndex + 1) % testimonials.length].name}
+            </p>
+            <p className="dark:text-gray-600 font-bold">
+                {testimonials[(activeIndex + 1) % testimonials.length].title}
+            </p>
+        </div>
+    </div>
+</div>
+
 
                     </div>
                 </div>
