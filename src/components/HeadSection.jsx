@@ -13,7 +13,7 @@ const HeadSection = () => {
                     <p className='text-[32px] text-[#FD6f00] sm:text-[24px] font-bold'>Muhammad Umair</p>
                     <div className="flex flex-col relative font-extrabold dark:text-white text-[30px] xl:text-[65px] lg:text-[40px] md:text-[40px] sm:text-[24px]">
                         <span className="relative dark:text-white">UI & UX</span>
-                        <span className="absolute left-0 mt-[3rem] sm:mt-[2rem] xl:mt-[3rem] ml-[calc(5rem)] xl:ml-[calc(10rem)]  lg:ml-[calc(8rem)] sm:ml-[calc(5rem)]">Designer</span>
+                        <span className="absolute left-0 mt-[1.5rem] ml-[calc(4.5rem)] md:ml-[calc(6rem)] sm:mt-[1.4rem] md:mt-[2rem] xl:mt-[3rem]  xl:ml-[calc(10rem)]  lg:ml-[calc(6rem)] sm:ml-[calc(3.8rem)]">Designer</span>
                     </div>
                     <h1 className='mt-[50px] dark:text-white text-xs sm:text-sm md:text-base lg:text-base'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rem laboriosam illum aliquam odit, voluptate odio quasi incidunt asperiores officia architecto at.
