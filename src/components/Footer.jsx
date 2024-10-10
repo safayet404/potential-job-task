@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from '../assets/Subtract.svg'
 import { FaTwitter, FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa6";
+import { Link } from 'react-scroll';
+
 
 const Footer = () => {
     return (
@@ -14,43 +16,19 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div className='flex flex-wrap justify-center items-start w-full mt-5'>
-                    <a
-                        href="#scrollToHome"
-                        className="dark:text-[#FFF8F8] text-black font-poppins text-[14px] px-2 py-5 rounded-md"
-                    >
-                        Home
-                    </a>
-                    <a
-                        href="#scrollToAbout"
-                        className="dark:text-[#FFF8F8] text-black font-poppins text-[14px] px-2 py-5 rounded-md"
-                    >
-                        About Me
-                    </a>
-                    <a
-                        href="#scrollToProject"
-                        className="dark:text-[#FFF8F8] text-black font-poppins text-[14px] px-2 py-5 rounded-md"
-                    >
-                        Services
-                    </a>
-                    <a
-                        href="#scrollToEducation"
-                        className="dark:text-[#FFF8F8] text-black font-poppins text-[14px] px-2 py-5 rounded-md"
-                    >
-                        Projects
-                    </a>
-                    <a
-                        href="#scrollToContact"
-                        className="dark:text-[#FFF8F8] text-black font-poppins text-[14px] px-2 py-5 rounded-md"
-                    >
-                        Testimonials
-                    </a>
-                    <a
-                        href="#scrollToContact"
-                        className="dark:text-[#FFF8F8]  text-black font-poppins text-[14px] px-2 py-5 rounded-md"
-                    >
-                        Contacts
-                    </a>
+                <div className='flex flex-wrap space-x-5 justify-center items-start w-full mt-5'>
+                <Link to="scrollToHead" smooth={true} duration={500} className="block py-2 px-3 hover:cursor-pointer rounded md:p-0 dark:text-white" aria-current="page">Home</Link>
+
+                <Link to="scrollToAbout" smooth={true} duration={500} className="block py-2 px-3 hover:cursor-pointer rounded md:p-0 dark:text-white">About Me</Link>
+
+                <Link to="scrollToService" smooth={true} duration={500} className="block py-2 px-3 hover:cursor-pointer rounded md:p-0 dark:text-white">Services</Link>
+
+                <Link to="scrollToProjects" smooth={true} duration={500} className="block py-2 px-3 hover:cursor-pointer rounded md:p-0 dark:text-white">Projects</Link>
+
+                <Link to="scrollToTestimonial" smooth={true} duration={500} className="block py-2 px-3 hover:cursor-pointer rounded md:p-0 dark:text-white">Testimonials</Link>
+
+                <Link to="scrollToContact" smooth={true} duration={500} className="block py-2 px-3 hover:cursor-pointer rounded md:p-0 dark:text-white">Contact</Link>
+
 
                 </div>
 

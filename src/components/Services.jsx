@@ -7,7 +7,6 @@ const Services = () => {
     return (
         <div data-aos="fade-left" id="scrollToService" className='w-full flex justify-center mt-5'>
             <div className='w-full max-w-[1500px] flex flex-col items-center'>
-                {/* Title and Description */}
                 <div className='flex flex-col justify-center items-center w-full text-center mb-8'>
                     <span className='dark:text-white text-[30px] lg:text-[40px] md:text-[40px] font-bold'>Services</span>
                     <span className='dark:text-white w-[70%] text-sm lg:text-base md:text-base '>

@@ -5,7 +5,7 @@ import SkillData from '../utils/SkillData'
 const AboutMe = () => {
     return (
         <div data-aos="fade-right" id="scrollToAbout" className='w-full flex justify-center '>
-            {/* Main Container with a maximum width of 1200px */}
+           
             <div className='w-full max-w-[1500px] flex flex-col md:flex-row items-center justify-center'>
 
                 {/* Left side - Image Section */}
@@ -27,10 +27,10 @@ const AboutMe = () => {
                         {
                             SkillData.map((item, index) => (
                                 <div key={index} className="w-full flex flex-col items-start">
-                                    {/* Tech name */}
+                               
                                     <p className='dark:text-white mb-3 mt-3'>{item.tech}</p>
 
-                                    {/* Progress bar */}
+                                
                                     <progress
                                         className="w-[80%] h-[8px] progress-bar "
                                         value={item.value}
