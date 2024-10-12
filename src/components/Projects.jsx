@@ -30,25 +30,25 @@ const Projects = () => {
 
 
                     <div className=' mt-10 m-4'>
-                        <img className='rounded-md w-[440px] h-[489px] sm:items-center  ' src={p3} alt="project" />
+                        <img className='rounded-md w-[400px] h-[450] 2xl:w-[440px] 2xl:h-[489px] xl:w-[390px] xl:h-[370px] md:w-[300px] md:h-[340px] sm:w-[400px] sm:h-[450px] lg:w-[280px] lg:h-[340px] sm:items-center  ' src={p3} alt="project" />
                         <div className='flex flex-col w-full'>
                             <span className='text-[#FD6F00] text-[16px]  mt-3 mb-3  '>Web Design</span>
-                            <span className='dark:text-white text-[22px] font-bold '>AirCalling Landing Page Design </span>
+                            <span className='dark:text-white text-[22px] font-bold sm:text-[17px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[22px] '>AirCalling Landing Page Design </span>
                         </div>
                     </div>
 
                     <div className=' mt-10 m-4'>
-                        <img className='rounded-md w-[440px] h-[489px]  ' src={p2} alt="project" />
-                        <div className='flex flex-col w-full'>
+                    <img className='rounded-md w-[400px] h-[450] 2xl:w-[440px] 2xl:h-[489px] xl:w-[390px] xl:h-[370px] md:w-[300px] md:h-[340px] sm:w-[400px] sm:h-[450px] lg:w-[280px] lg:h-[340px] sm:items-center  ' src={p2} alt="project" />
+                    <div className='flex flex-col w-full'>
                             <span className='text-[#FD6F00] text-[16px]  mt-3 mb-3  '>Web Design</span>
-                            <span className='dark:text-white text-[22px] font-bold '>Business Landing Page Design  </span>
+                            <span className='dark:text-white text-[22px] font-bold sm:text-[17px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[22px] '>Business Landing Page Design  </span>
                         </div>
                     </div>
                     <div className=' mt-10 m-4'>
-                        <img className='rounded-md w-[440px] h-[489px]  ' src={p1} alt="project" />
-                        <div className='flex flex-col w-full'>
+                    <img className='rounded-md w-[400px] h-[450] 2xl:w-[440px] 2xl:h-[489px] xl:w-[390px] xl:h-[370px] md:w-[300px] md:h-[340px] sm:w-[400px] sm:h-[450px] lg:w-[280px] lg:h-[340px] sm:items-center  ' src={p1} alt="project" />
+                    <div className='flex flex-col w-full'>
                             <span className='text-[#FD6F00] text-[16px]  mt-3 mb-3  '>Web Design</span>
-                            <span className='dark:text-white text-[22px] font-bold '>Ecom Web Page Design </span>
+                            <span className='dark:text-white text-[22px] font-bold sm:text-[17px] md:text-[18px] lg:text-[18px] xl:text-[22px] 2xl:text-[22px] '>Ecom Web Page Design </span>
                         </div>
                     </div>
                 </div>

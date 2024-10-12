@@ -17,39 +17,39 @@ const Services = () => {
 
                 <div className='flex flex-wrap justify-center gap-5 mt-5'>
 
-                    <div className=' bg-[#ebebeb] dark:bg-white m-5 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-start w-full md:w-[300px]'>
+                    <div className=' bg-[#ebebeb] dark:bg-white m-5 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-start w-full xl:w-[250px] lg:w-[200px] sm:w-full md:w-[300px]'>
                         <div className='text-4xl mb-4'>
-                        <img src={ui} alt="Graphics" className="w-16 h-16 mb-4" /> 
+                        <img src={ui} alt="Graphics" className="w-16 h-16 lg:w-[40px] lg:h-[40px] mb-4" /> 
                         </div>
-                        <h3 className="text-2xl font-bold mb-2 dark:text-black">UI/UX</h3>
-                        <p className="text-gray-600 dark:text-black  ">
+                        <h3 className="text-2xl lg:text-base font-bold mb-2 dark:text-black">UI/UX</h3>
+                        <p className="text-gray-600 dark:text-black  lg:text-sm ">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, dolor.
                         </p>
                     </div>
-                    <div className=' bg-[#ebebeb] dark:bg-white  m-5 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-start w-full md:w-[300px]'>
+                    <div className=' bg-[#ebebeb] dark:bg-white m-5 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-start w-full xl:w-[250px] sm:w-full lg:w-[200px] md:w-[300px]'>
                         <div className='text-4xl mb-4'>
-                        <img src={web} alt="Graphics" className="w-16 h-16 mb-4" /> 
+                        <img src={web} alt="Graphics" className="w-16 h-16 lg:w-[40px] lg:h-[40px] mb-4" /> 
                         </div>
-                        <h3 className="text-2xl font-bold mb-2  dark:text-black">Web Design</h3>
-                        <p className="text-gray-600 dark:text-black  ">
+                        <h3 className="text-2xl font-bold mb-2 lg:text-base dark:text-black">Web Design</h3>
+                        <p className="text-gray-600 dark:text-black  lg:text-sm">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, dolor.
                         </p>
                     </div>
-                    <div className='dark:bg-white bg-[#ebebeb]  m-5 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-start w-full md:w-[300px]'>
+                    <div className=' bg-[#ebebeb] dark:bg-white m-5 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-start xl:w-[250px] sm:w-full w-full lg:w-[200px] md:w-[300px]'>
                         <div className='text-4xl mb-4'>
-                        <img src={app} alt="Graphics" className="w-16 h-16 mb-4" /> 
+                        <img src={app} alt="Graphics" className="w-16 h-16 lg:w-[40px] lg:h-[40px] mb-4" /> 
                         </div>
-                        <h3 className="text-2xl font-bold mb-2 dark:text-black">App Design</h3>
-                        <p className="text-gray-600 dark:text-black  ">
+                        <h3 className="text-2xl font-bold mb-2 lg:text-base dark:text-black">App Design</h3>
+                        <p className="text-gray-600 dark:text-black  lg:text-sm">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, dolor.
                         </p>
                     </div>
-                    <div className='dark:bg-white bg-[#ebebeb]  m-5 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-start w-full md:w-[300px]'>
+                    <div className=' bg-[#ebebeb] dark:bg-white m-5 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-start w-full sm:w-full xl:w-[250px] lg:w-[200px] md:w-[300px]'>
                         <div className='text-4xl mb-4'>
-                        <img src={graphics} alt="Graphics" className="w-16 h-16 mb-4" /> 
+                        <img src={graphics} alt="Graphics" className="w-16 h-16 lg:w-[40px] lg:h-[40px] mb-4" /> 
                         </div>
-                        <h3 className="font-bold mb-2 dark:text-black text-2xl">Graphics Design</h3>
-                        <p className="text-gray-600 dark:text-black ">
+                        <h3 className="font-bold mb-2 dark:text-black lg:text-base text-2xl">Graphics Design</h3>
+                        <p className="text-gray-600 dark:text-black lg:text-sm">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, dolor.
                         </p>
                     </div>

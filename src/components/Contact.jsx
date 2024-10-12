@@ -8,8 +8,8 @@ const Contact = () => {
             <div className='w-full max-w-[1500px] flex flex-col  items-center justify-center'>
 
                 <div className='flex flex-col justify-center w-full items-center text-center'>
-                <span className='dark:text-white text-[30px] lg:text-[40px] md:text-[40px] font-bold'>Let's Design Together</span>
-                    <span className='dark:text-white w-[70%] text-xs sm:text-base lg:text-base md:text-base '>
+                <span className='dark:text-white text-[25px] lg:text-[40px] md:text-[40px] font-bold'>Let's Design Together</span>
+                    <span className='dark:text-white w-[70%] text-xs sm:text-xs lg:text-base md:text-sm '>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt sapiente tempora,
                         assumenda quod, cum repellat, explicabo quisquam ex corrupti expedita odio pariatur.
                     </span>

@@ -63,7 +63,7 @@ export default function Testimonial() {
                                     />
                                 </div>
                                 <div className="col-span-8 relative z-10">
-                                    <p className="text-gray-600 text-[12px] lg:text-sm md:text-base sm:text-[15px] mb-2">
+                                    <p className="text-gray-600 text-[12px] lg:text-sm md:text-xs sm:text-[10px] mb-2">
                                         {testimonials[(activeIndex + 2) % testimonials.length].testimonial}
                                         <span className="text-[#FD6F00] text-2xl">“</span>
                                     </p>
@@ -90,8 +90,8 @@ export default function Testimonial() {
                                     />
                                 </div>
                                 <div className="col-span-9">
-                                    <p className="text-gray-600 text-[12px] lg:text-sm md:text-base sm:text-[15px] mb-2">
-                                        <span className="text-[#FD6F00] text-2xl">“</span> {testimonials[activeIndex]?.testimonial}<span className="text-[#FD6F00] text-2xl">“</span>
+                                    <p className="text-gray-600 text-[12px] lg:text-sm md:text-xs sm:text-[10px] mb-2">
+                                        <span className="text-[#FD6F00]  text-2xl">“</span> {testimonials[activeIndex]?.testimonial}<span className="text-[#FD6F00] text-2xl">“</span>
                                     </p>
                                     <p className="text-gray-600 font-bold mb-1">
                                         {testimonials[activeIndex]?.name}
@@ -117,7 +117,7 @@ export default function Testimonial() {
                                     />
                                 </div>
                                 <div className="col-span-10 relative z-10"> 
-                                    <p className="text-gray-600 text-[12px] lg:text-sm md:text-base sm:text-[15px] mb-2">
+                                    <p className="text-gray-600 text-[12px] lg:text-sm md:text-xs sm:text-[10px] mb-2">
                                         <span className="text-[#FD6F00] text-2xl">“</span> {
                                             testimonials[(activeIndex + 1) % testimonials.length].testimonial
                                         }
