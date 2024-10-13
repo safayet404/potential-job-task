@@ -54,19 +54,20 @@ const Projects = () => {
                     >
                         All
                     </span>
-                    <span
-                        onClick={() => handleFilterClick('web-design')}
-                        className={`pr-7 pl-7 pb-1 pt-1 m-2 text-sm font-semibold border-1 border-[#545454] rounded-md cursor-pointer ${activeFilter === 'web-design' ? 'bg-[#FD6F00] text-white' : 'bg-[#F8F8F8]'}`}
-                        data-filter=".web-design"
-                    >
-                        Web Design
-                    </span>
+                   
                     <span
                         onClick={() => handleFilterClick('ui-ux')}
                         className={`pr-7 pl-7 pb-1 pt-1 m-2 text-sm font-semibold border-1 border-[#545454] rounded-md cursor-pointer ${activeFilter === 'ui-ux' ? 'bg-[#FD6F00] text-white' : 'bg-[#F8F8F8]'}`}
                         data-filter=".ui-ux"
                     >
                         UI/UX
+                    </span>
+                    <span
+                        onClick={() => handleFilterClick('web-design')}
+                        className={`pr-7 pl-7 pb-1 pt-1 m-2 text-sm font-semibold border-1 border-[#545454] rounded-md cursor-pointer ${activeFilter === 'web-design' ? 'bg-[#FD6F00] text-white' : 'bg-[#F8F8F8]'}`}
+                        data-filter=".web-design"
+                    >
+                        Web Design
                     </span>
                     <span
                         onClick={() => handleFilterClick('app-design')}
