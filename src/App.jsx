@@ -6,7 +6,7 @@ function App() {
 
   return (
 
-    <main className='w-full min-h-screen dark:bg-[#1E1E1E] bg-[#f3f4f6]'>
+    <main className='w-full text-base min-h-screen dark:bg-[#1E1E1E] bg-[#f3f4f6]'>
 
 
       <HomePage />
